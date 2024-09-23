@@ -9,8 +9,10 @@ import AuthProvider from "./provider/AuthProvider";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <AuthProvider>
+<div className="max-w-7xl mx-auto">
+<AuthProvider>
       <RouterProvider router={router}></RouterProvider>
     </AuthProvider>
+</div>
   </StrictMode>
 );

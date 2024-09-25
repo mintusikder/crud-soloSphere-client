@@ -13,10 +13,11 @@ import {
 import { app } from '../firebase/firebase.config'
 
 export const AuthContext = createContext(null)
-const auth = getAuth(app)
-const googleProvider = new GoogleAuthProvider()
 
 const AuthProvider = ({ children }) => {
+  const auth = getAuth(app)
+  const googleProvider = new GoogleAuthProvider()
+  
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(true)
 

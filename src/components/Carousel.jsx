@@ -34,8 +34,8 @@ export default function Carousel() {
         className="mySwiper"
       >
         <SwiperSlide><Slide image={img1} text="Web Developer"></Slide></SwiperSlide>
-        <SwiperSlide><Slide image={img2} text="Gra"></Slide></SwiperSlide>
-        <SwiperSlide><Slide image={img3} text="dara"></Slide></SwiperSlide>
+        <SwiperSlide><Slide image={img2} text="Graphics Design"></Slide></SwiperSlide>
+        <SwiperSlide><Slide image={img3} text="Digital Marketing"></Slide></SwiperSlide>
    
 
       </Swiper>
